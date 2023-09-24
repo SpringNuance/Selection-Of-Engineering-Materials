@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>66877cec-bc84-47ce-8a78-ad3ad2ba9b05</ID>
+  <Version>7</Version>
+  <Name />
+  <Author>springnuance</Author>
+  <Company>606138</Company>
+  <Notes />
+  <Template />
+  <PassNA>false</PassNA>
+  <FailEstimatedRecords>false</FailEstimatedRecords>
+  <ResultType>0</ResultType>
+  <ResultStage>-1</ResultStage>
+  <RankByType>0</RankByType>
+  <RankByStage>-1</RankByStage>
+  <RankByProperty />
+  <IndexRankColumn>0</IndexRankColumn>
+  <RankOrder>1</RankOrder>
+  <Database>
+    <Path>C:\Program Files (x86)\Granta EduPack\2023 R1\Database\English Level 2\data.gdb</Path>
+    <Name>Level 2</Name>
+    <Unit>Metric</Unit>
+    <UnitType>Relative</UnitType>
+    <Currency>EUR</Currency>
+    <SelectionTable>MaterialUniverse</SelectionTable>
+    <Tables>
+      <Table>
+        <TableName>MaterialUniverse</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>EDU04-52</Id>
+            <Name>Glasses</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X41353558-58e7-4c1a-b852-55fbd6d4a4b2</Id>
+            <Name>Non-technical ceramics</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-232</Id>
+            <Name>Technical ceramics</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-4329</Id>
+            <Name>Composites</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-7014</Id>
+            <Name>Foams</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-7004</Id>
+            <Name>Natural materials</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-1590</Id>
+            <Name>Metals and alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-4083</Id>
+            <Name>Elastomers</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xe6316629-83a2-40e1-82d0-201426288240</Id>
+            <Name>Polymers</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Reference</TableName>
+        <SubsetName>Materials References</SubsetName>
+        <LayoutName>All References</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>ProcessUniverse</TableName>
+        <SubsetName>All Processes</SubsetName>
+        <LayoutName>All Processes</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Producers</TableName>
+        <SubsetName>Producers</SubsetName>
+        <LayoutName>Producers</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+    </Tables>
+    <ParameterValues>
+      <ParameterValue>
+        <Name>Batch Size</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Capital Write-off Time</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component length</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Mass</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Discount Rate</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Load Factor</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Material Cost</Name>
+        <Value>7.9993867874145508</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Overhead Rate</Name>
+        <Value>149.98849487304688</Value>
+      </ParameterValue>
+    </ParameterValues>
+  </Database>
+  <Stages>
+    <Stage xsi:type="BarStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1270,878</Windowplacement>
+      <ZOrder>1</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>false</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name />
+        <FunctionObjective />
+        <Expression>[MaterialUniverse:\Polymers and elastomers]&#xD;
+[MaterialUniverse:\Metals and alloys]&#xD;
+[MaterialUniverse:\Ceramics and glasses\Glasses]</Expression>
+        <ExpressionType>4</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>false</LogAxis>
+        <Low>0</Low>
+        <High>3</High>
+      </xAxis>
+      <yAxis>
+        <Name>Young's modulus / Density</Name>
+        <FunctionObjective />
+        <Expression>[Young's modulus] / [Density]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>7.5260043472681027E-07</Low>
+        <High>0.036869327301623477</High>
+      </yAxis>
+      <Selections />
+      <Labels />
+      <Curves />
+    </Stage>
+  </Stages>
+</Project>

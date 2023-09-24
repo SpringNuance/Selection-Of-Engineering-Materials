@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>ac4628f7-113a-4154-9f1c-3ca4f7b15a25</ID>
+  <Version>7</Version>
+  <Name />
+  <Author>SYSTEM</Author>
+  <Company>606138</Company>
+  <Notes />
+  <Template>MaterialUniverse\All materials.cet</Template>
+  <PassNA>false</PassNA>
+  <FailEstimatedRecords>false</FailEstimatedRecords>
+  <ResultType>0</ResultType>
+  <ResultStage>-1</ResultStage>
+  <RankByType>0</RankByType>
+  <RankByStage>-1</RankByStage>
+  <RankByProperty />
+  <IndexRankColumn>0</IndexRankColumn>
+  <RankOrder>1</RankOrder>
+  <Database>
+    <Path>C:\Program Files (x86)\Granta EduPack\2023 R2\Database\English Level 2\data.gdb</Path>
+    <Name>Level 2</Name>
+    <Unit>US Customary</Unit>
+    <UnitType>Relative</UnitType>
+    <Currency>USD</Currency>
+    <SelectionTable>MaterialUniverse</SelectionTable>
+    <Tables>
+      <Table>
+        <TableName>MaterialUniverse</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>EDU04-52</Id>
+            <Name>Glasses</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X41353558-58e7-4c1a-b852-55fbd6d4a4b2</Id>
+            <Name>Non-technical ceramics</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-232</Id>
+            <Name>Technical ceramics</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-4329</Id>
+            <Name>Composites</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-7014</Id>
+            <Name>Foams</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-7004</Id>
+            <Name>Natural materials</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-1590</Id>
+            <Name>Metals and alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>EDU04-4083</Id>
+            <Name>Elastomers</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xe6316629-83a2-40e1-82d0-201426288240</Id>
+            <Name>Polymers</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Reference</TableName>
+        <SubsetName>Materials References</SubsetName>
+        <LayoutName>All References</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>ProcessUniverse</TableName>
+        <SubsetName>All Processes</SubsetName>
+        <LayoutName>All Processes</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Producers</TableName>
+        <SubsetName>Producers</SubsetName>
+        <LayoutName>Producers</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+    </Tables>
+    <ParameterValues>
+      <ParameterValue>
+        <Name>Batch Size</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Capital Write-off Time</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component length</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Mass</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Discount Rate</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Load Factor</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Material Cost</Name>
+        <Value>7.4607529640197754</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Overhead Rate</Name>
+        <Value>139.88909912109375</Value>
+      </ParameterValue>
+    </ParameterValues>
+  </Database>
+  <Stages>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1182,457</Windowplacement>
+      <ZOrder>1</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>false</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>false</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Thickness relative to ABS t/to</Name>
+        <FunctionObjective />
+        <Expression>(2.415 / [Young's modulus])^(1 / 3)</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>0.10878728630778141</Low>
+        <High>108.73625492481961</High>
+      </xAxis>
+      <yAxis>
+        <Name>Mass relative to ABS m/mo</Name>
+        <FunctionObjective />
+        <Expression>([Density] / ([Young's modulus])^(1 / 3)) * ((2.415^(1 / 3)) / 1045)</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>5.43197946615405E-06</Low>
+        <High>0.0015236863285425293</High>
+      </yAxis>
+      <Selections>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>1.9022453584472316</XPos>
+          <YPos>0.0015420999204661346</YPos>
+          <Slope xsi:nil="true" />
+          <XLog>true</XLog>
+          <YLog>true</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>0.17002988645807973</XPos>
+          <YPos>6.9122151554129469E-05</YPos>
+          <Slope>0</Slope>
+          <XLog>true</XLog>
+          <YLog>true</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+      </Selections>
+      <Labels>
+        <Label xsi:type="BubbleLabel">
+          <Text>Acrylonitrile butadiene styrene (ABS)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>8.9699801281970633</XPos>
+          <YPos>9.25104536946494E-05</YPos>
+          <RecordGruid>EDU04-7256</RecordGruid>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Metals and alloys</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>0.58418254945386694</XPos>
+          <YPos>0.000727682916772443</YPos>
+          <EnvelopeId>EDU04-1590</EnvelopeId>
+          <InitialXPos>0.71767112207198214</InitialXPos>
+          <InitialYPos>0.00030746962661595622</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Composites</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>1.2651609700250721</XPos>
+          <YPos>5.5496948863099419E-06</YPos>
+          <EnvelopeId>EDU04-4329</EnvelopeId>
+          <InitialXPos>0.71031038370497068</InitialXPos>
+          <InitialYPos>3.0938152079839472E-05</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Foams</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>39.591158163943149</XPos>
+          <YPos>9.76521410366288E-06</YPos>
+          <EnvelopeId>EDU04-7014</EnvelopeId>
+          <InitialXPos>22.226391993180961</InitialXPos>
+          <InitialYPos>1.3967104090977747E-05</InitialYPos>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>GFRP, epoxy matrix (isotropic)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>0.42564442233583072</XPos>
+          <YPos>8.0337843088931618E-06</YPos>
+          <RecordGruid>EDU04-13172</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>CFRP, epoxy matrix (isotropic)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>0.31179981268692991</XPos>
+          <YPos>1.0280657117746376E-05</YPos>
+          <RecordGruid>EDU04-13171</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>Cast Al-alloys</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>4.0106157793452173</XPos>
+          <YPos>0.00064326781984290352</YPos>
+          <RecordGruid>EDU05-6108</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>Age-hardening wrought Al-alloys</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>2.9221965603153852</XPos>
+          <YPos>0.00083245496321600039</YPos>
+          <RecordGruid>EDU05-6109</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>Non age-hardening wrought Al-alloys</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>2.7546950431873252</XPos>
+          <YPos>0.0010652743108022222</YPos>
+          <RecordGruid>EDU05-6110</RecordGruid>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Elastomers</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>36.592489144949418</XPos>
+          <YPos>0.00038843843679458288</YPos>
+          <EnvelopeId>EDU04-4083</EnvelopeId>
+          <InitialXPos>23.314543476555588</InitialXPos>
+          <InitialYPos>0.000519871202101788</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Polymers</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>7.1599330690994512</XPos>
+          <YPos>0.00016022611219508777</YPos>
+          <EnvelopeId>Xe6316629-83a2-40e1-82d0-201426288240</EnvelopeId>
+          <InitialXPos>3.5640128632799231</InitialXPos>
+          <InitialYPos>0.00018745122820446465</InitialYPos>
+        </Label>
+        <Label>
+          <Text>A. Lighter&#xD;
+&amp; Thinner </Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FFff0000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFe1e1ff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>700</Weight>
+          <XPos>0.14868318681509152</XPos>
+          <YPos>5.1887150749632249E-06</YPos>
+        </Label>
+        <Label>
+          <Text>B. Thinner&#xD;
+but Heavier</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FFff0000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFe1e1ff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>700</Weight>
+          <XPos>0.15437451780766681</XPos>
+          <YPos>0.0013329864454528309</YPos>
+        </Label>
+        <Label>
+          <Text>C. Lighter&#xD;
+but Thicker</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FFff0000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFe1e1ff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>700</Weight>
+          <XPos>70.847664126131946</XPos>
+          <YPos>5.42665915236643E-06</YPos>
+        </Label>
+        <Label>
+          <Text>D. Heavier&#xD;
+&amp; Thicker</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FFff0000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFe1e1ff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>700</Weight>
+          <XPos>73.078584420516975</XPos>
+          <YPos>0.0013632074782268322</YPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Glasses</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>1.1303281053348764</XPos>
+          <YPos>2.2280638788534208E-05</YPos>
+          <EnvelopeId>EDU04-52</EnvelopeId>
+          <InitialXPos>0.66447928636310871</InitialXPos>
+          <InitialYPos>4.6170177622751068E-05</InitialYPos>
+        </Label>
+        <Label>
+          <Text>Trade-off&#xD;
+surface</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>false</Fill>
+          <FillColor>#FF000000</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>102</PointSize>
+          <Italic>false</Italic>
+          <Weight>700</Weight>
+          <XPos>0.36823280032185329</XPos>
+          <YPos>0.0015249103103019081</YPos>
+        </Label>
+      </Labels>
+      <Curves>
+        <Curves>
+          <Points>
+            <Point>
+              <X>0.2726543595620825</X>
+              <Y>0.00075256986044286824</Y>
+            </Point>
+            <Point>
+              <X>0.28006905558292711</X>
+              <Y>0.00020275229931760155</Y>
+            </Point>
+            <Point>
+              <X>0.29078960664350351</X>
+              <Y>8.363284778497257E-05</Y>
+            </Point>
+            <Point>
+              <X>0.31347750831191235</X>
+              <Y>4.46433630768234E-05</Y>
+            </Point>
+            <Point>
+              <X>0.36626206066208694</X>
+              <Y>2.3830706709083188E-05</Y>
+            </Point>
+            <Point>
+              <X>0.52755578875681663</X>
+              <Y>1.5740299989997807E-05</Y>
+            </Point>
+            <Point>
+              <X>0.88783119321562742</X>
+              <Y>1.1760869804047002E-05</Y>
+            </Point>
+            <Point>
+              <X>1.5513370307314878</X>
+              <Y>9.5048086258779584E-06</Y>
+            </Point>
+            <Point>
+              <X>2.81446383287885</X>
+              <Y>8.2159274485201587E-06</Y>
+            </Point>
+            <Point>
+              <X>5.4749751832738083</X>
+              <Y>7.4275001610353794E-06</Y>
+            </Point>
+            <Point>
+              <X>8.77949096661812</X>
+              <Y>7.34470667238496E-06</Y>
+            </Point>
+            <Point>
+              <X>13.928214464608596</X>
+              <Y>7.34470667238496E-06</Y>
+            </Point>
+            <Point>
+              <X>19.530763580339972</X>
+              <Y>7.5112269424731991E-06</Y>
+            </Point>
+          </Points>
+          <LineStyle>
+            <Color>#FFFFA500</Color>
+            <Width>3</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+          <Type>Curve</Type>
+        </Curves>
+        <Curves>
+          <Points>
+            <Point>
+              <X>0.31179981268692991</X>
+              <Y>0.001274538261427278</Y>
+            </Point>
+            <Point>
+              <X>0.28461431220876249</X>
+              <Y>0.00087062994968407816</Y>
+            </Point>
+          </Points>
+          <LineStyle>
+            <Color>#FF808080</Color>
+            <Width>3</Width>
+            <DashStyle>Solid</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>LargeArrow</EndArrowStyle>
+          </LineStyle>
+          <Type>Arrow</Type>
+        </Curves>
+      </Curves>
+      <ShowEnvelopes>true</ShowEnvelopes>
+      <OnTop>
+        <Record>EDU04-7256</Record>
+      </OnTop>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1424,728</Windowplacement>
+      <ZOrder>2</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>false</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Price * (Density / (Young's modulus^(1 / 2)))</Name>
+        <FunctionObjective />
+        <Expression>[Price] * ([Density] / ([Young's modulus]^(1 / 2)))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>3.9444608092264155E-05</Low>
+        <High>124294.32203703521</High>
+      </xAxis>
+      <yAxis>
+        <Name>Density / (Young's modulus^(1 / 2))</Name>
+        <FunctionObjective />
+        <Expression>[Density] / ([Young's modulus]^(1 / 2))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>0.0068195622369816369</Low>
+        <High>5.8591973411269773</High>
+      </yAxis>
+      <Selections>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>true</Enabled>
+          <XPos>0.0043044491294062679</XPos>
+          <YPos>0.073910463398379533</YPos>
+          <Slope>-0.41120365966649169</Slope>
+          <XLog>false</XLog>
+          <YLog>false</YLog>
+          <MaximizeIndex>false</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Solid</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+      </Selections>
+      <Labels>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Non-technical ceramics</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>0.0055582818988038213</XPos>
+          <YPos>0.18467731096973611</YPos>
+          <EnvelopeId>X41353558-58e7-4c1a-b852-55fbd6d4a4b2</EnvelopeId>
+          <InitialXPos>0.0062422685763451214</InitialXPos>
+          <InitialYPos>0.053072455216969891</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Metals and alloys</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>0.013342759989683931</XPos>
+          <YPos>0.49356612122878057</YPos>
+          <EnvelopeId>EDU04-1590</EnvelopeId>
+          <InitialXPos>0.048846150982953675</InitialXPos>
+          <InitialYPos>0.126791645795001</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Elastomers</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>21.839602659678896</XPos>
+          <YPos>1.6969319355725925</YPos>
+          <EnvelopeId>EDU04-4083</EnvelopeId>
+          <InitialXPos>4.9069595839954756</InitialXPos>
+          <InitialYPos>1.6969319355725925</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Metals and alloys</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>89.546545995666278</XPos>
+          <YPos>0.52163227673374091</YPos>
+          <EnvelopeId>EDU04-1590</EnvelopeId>
+          <InitialXPos>88.089310304202385</InitialXPos>
+          <InitialYPos>0.234777458909055</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Technical ceramics</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>16.5237660466669</XPos>
+          <YPos>0.014972344402412928</YPos>
+          <EnvelopeId>EDU04-232</EnvelopeId>
+          <InitialXPos>0.731542396384539</InitialXPos>
+          <InitialYPos>0.014275483285993968</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Polymers</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>0.078551401403337884</XPos>
+          <YPos>1.2011486456362785</YPos>
+          <EnvelopeId>Xe6316629-83a2-40e1-82d0-201426288240</EnvelopeId>
+          <InitialXPos>0.54447529152236618</InitialXPos>
+          <InitialYPos>0.21090344486923512</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Natural materials</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>5.7818759858433282</XPos>
+          <YPos>0.37813448284957724</YPos>
+          <EnvelopeId>EDU04-7004</EnvelopeId>
+          <InitialXPos>2.6740172388387249</InitialXPos>
+          <InitialYPos>0.20349766581371734</InitialYPos>
+        </Label>
+        <Label xsi:type="EnvelopeLabel">
+          <Text>Foams</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>0.068888845161618653</XPos>
+          <YPos>0.29795545473998858</YPos>
+          <EnvelopeId>EDU04-7014</EnvelopeId>
+          <InitialXPos>0.076015591501105081</InitialXPos>
+          <InitialYPos>0.17019164068067894</InitialYPos>
+        </Label>
+      </Labels>
+      <Curves>
+        <Curves>
+          <Points>
+            <Point>
+              <X>0.0007813617529077824</X>
+              <Y>0.27411203926114014</Y>
+            </Point>
+            <Point>
+              <X>0.00079428759181320626</X>
+              <Y>0.099557642412525474</Y>
+            </Point>
+            <Point>
+              <X>0.00079428759181320626</X>
+              <Y>0.052943543512513305</Y>
+            </Point>
+            <Point>
+              <X>0.00093590996101474062</X>
+              <Y>0.030970583231877655</Y>
+            </Point>
+            <Point>
+              <X>0.0016349537070877091</X>
+              <Y>0.018553901940237757</Y>
+            </Point>
+            <Point>
+              <X>0.0039008909057482192</X>
+              <Y>0.013611056329685458</Y>
+            </Point>
+            <Point>
+              <X>0.013574117977232649</X>
+              <Y>0.011115298495690863</Y>
+            </Point>
+            <Point>
+              <X>0.0529832797283218</X>
+              <Y>0.0099850077361946319</Y>
+            </Point>
+            <Point>
+              <X>0.18136815023951311</X>
+              <Y>0.009749871938399603</Y>
+            </Point>
+            <Point>
+              <X>0.92044598699194391</X>
+              <Y>0.009407509596048344</Y>
+            </Point>
+            <Point>
+              <X>2.26938359626109</X>
+              <Y>0.0092960815057643465</Y>
+            </Point>
+            <Point>
+              <X>9.004523983331433</X>
+              <Y>0.0092960815057643465</Y>
+            </Point>
+            <Point>
+              <X>22.568151626958016</X>
+              <Y>0.009407509596048344</Y>
+            </Point>
+            <Point>
+              <X>51.259863816628958</X>
+              <Y>0.0098667394174482472</Y>
+            </Point>
+          </Points>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>3</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+          <Type>Curve</Type>
+        </Curves>
+      </Curves>
+      <ShowEnvelopes>true</ShowEnvelopes>
+    </Stage>
+    <Stage xsi:type="BarStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-8,-31,78,78,1878,878</Windowplacement>
+      <ZOrder>-1</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>false</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>false</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name />
+        <FunctionObjective />
+        <Expression />
+        <ExpressionType>0</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>false</LogAxis>
+        <Low>0</Low>
+        <High>1</High>
+      </xAxis>
+      <yAxis>
+        <Name>(Density / Young's modulus^(1 / 2)) * (Price + 5)</Name>
+        <FunctionObjective />
+        <Expression>([Density] / [Young's modulus]^(1 / 2)) * ([Price] + 5)</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>0.073552263799000345</Low>
+        <High>5465.2577354521709</High>
+      </yAxis>
+      <Selections />
+      <Labels />
+      <Curves />
+    </Stage>
+  </Stages>
+</Project>

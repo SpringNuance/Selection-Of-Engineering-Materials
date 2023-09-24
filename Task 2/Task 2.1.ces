@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>1d6ba9c8-99ff-4789-b37f-3b99952a23ab</ID>
+  <Version>7</Version>
+  <Name />
+  <Author>springnuance</Author>
+  <Company>606138</Company>
+  <Notes />
+  <Template />
+  <PassNA>false</PassNA>
+  <FailEstimatedRecords>false</FailEstimatedRecords>
+  <ResultType>0</ResultType>
+  <ResultStage>-1</ResultStage>
+  <RankByType>0</RankByType>
+  <RankByStage>-1</RankByStage>
+  <RankByProperty />
+  <IndexRankColumn>0</IndexRankColumn>
+  <RankOrder>1</RankOrder>
+  <Database>
+    <Path>C:\Program Files (x86)\Granta EduPack\2023 R1\Database\Standard Level 3\data.gdb</Path>
+    <Name>Level 3</Name>
+    <Unit>Metric</Unit>
+    <UnitType>Relative</UnitType>
+    <Currency>EUR</Currency>
+    <SelectionTable>MaterialUniverse</SelectionTable>
+    <Tables>
+      <Table>
+        <TableName>MaterialUniverse</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>All materials</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels>
+          <RecordCustomLabels>
+            <GRUID>51</GRUID>
+            <Text>Aerated concrete</Text>
+          </RecordCustomLabels>
+          <RecordCustomLabels>
+            <GRUID>17</GRUID>
+            <Text>Carbon fibers, &#xD;
+ultra high modulus &#xD;
+(10 micron, f)</Text>
+          </RecordCustomLabels>
+          <RecordCustomLabels>
+            <GRUID>6127</GRUID>
+            <Text>Vermiculite</Text>
+          </RecordCustomLabels>
+          <RecordCustomLabels>
+            <GRUID>3869</GRUID>
+            <Text>Balsa (ochroma spp.) &#xD;
+(0.09-0.11) (l)</Text>
+          </RecordCustomLabels>
+          <RecordCustomLabels>
+            <GRUID>8099</GRUID>
+            <Text>Beryllium, &#xD;
+Standard Grade</Text>
+          </RecordCustomLabels>
+          <RecordCustomLabels>
+            <GRUID>9080</GRUID>
+            <Text>Bisphenol molding compound</Text>
+          </RecordCustomLabels>
+        </RecordCustomLabels>
+        <Envelopes>
+          <Envelope>
+            <Id>X03049d73-0df0-4806-afcd-85a3fc565bdd</Id>
+            <Name>Glass ceramics</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>52</Id>
+            <Name>Glasses</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X694b6834-5f2a-410c-9eac-9e3b6e287325</Id>
+            <Name>Non-technical ceramics</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>232</Id>
+            <Name>Technical ceramics</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>13535</Id>
+            <Name>Fibers and particulates</Name>
+            <Color>13</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7005</Id>
+            <Name>Natural fibers</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>4329</Id>
+            <Name>Composites</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7014</Id>
+            <Name>Foams</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X87ef5279-c41c-4350-8dfc-a6da75c5476d</Id>
+            <Name>Honeycombs</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7004</Id>
+            <Name>Natural materials</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1bd95d43-1ad5-4cf6-a869-3c1000c5d970</Id>
+            <Name>Mineralized tissue</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xabc6ca67-59a4-43b8-b61b-2c43088561d6</Id>
+            <Name>Soft tissue</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb6f06cd4-69ce-4455-bf07-f7c4490c523b</Id>
+            <Name>PCB laminates</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb9792dea-662a-4b27-a3f3-280d2045f462</Id>
+            <Name>Gases</Name>
+            <Color>14</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xa87eb136-4fd4-4b4b-b16c-5e4031d8dc6c</Id>
+            <Name>Liquids</Name>
+            <Color>14</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xecd7c10f-4f78-45d5-ad54-6a6429f1029e</Id>
+            <Name>Magnetic materials</Name>
+            <Color>15</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>1590</Id>
+            <Name>Metals and alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X03cc6bbd-b370-40bc-b95c-df31e10aaa72</Id>
+            <Name>Elastomers</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xa49e66e3-edbf-4b30-a54c-02c8c62f811b</Id>
+            <Name>Plastics</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>ProcessUniverse</TableName>
+        <SubsetName>All processes</SubsetName>
+        <LayoutName>All Processes</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Producers</TableName>
+        <SubsetName>Producers</SubsetName>
+        <LayoutName>Producers</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Reference</TableName>
+        <SubsetName>All references</SubsetName>
+        <LayoutName>All References</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Shape</TableName>
+        <SubsetName>Shape class</SubsetName>
+        <LayoutName>Shape class</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Structural Sections</TableName>
+        <SubsetName>All structural sections</SubsetName>
+        <LayoutName>All structural sections</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+    </Tables>
+    <ParameterValues>
+      <ParameterValue>
+        <Name>Temperature</Name>
+        <Value>23</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress Ratio</Name>
+        <Value>-1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Number of Cycles</Name>
+        <Value>10000000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Length</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Load Factor</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Capital Write-off Time</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Overhead Rate</Name>
+        <Value>149.98849487304688</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Batch Size</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Mass</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Material Cost</Name>
+        <Value>7.9993867874145508</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Discount Rate</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain</Name>
+        <Value>0.10000000149011612</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Magnetic field intensity</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Flux density, B</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Frequency</Name>
+        <Value>400</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Frequency (high)</Name>
+        <Value>10</Value>
+      </ParameterValue>
+    </ParameterValues>
+  </Database>
+  <Stages>
+    <Stage xsi:type="TreeStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-9,-38,160,160,1142,750</Windowplacement>
+      <ZOrder>4</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <Expression>[MaterialUniverse:\Metals and alloys]&#xD;
+[MaterialUniverse:\Polymers: plastics, elastomers]</Expression>
+    </Stage>
+    <Stage xsi:type="LimitStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-9,-38,256,256,1238,846</Windowplacement>
+      <ZOrder>0</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <Form>All materials</Form>
+      <SelectedLogicBetweenAttributes>AND</SelectedLogicBetweenAttributes>
+      <LimitValues />
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1614,543</Windowplacement>
+      <ZOrder>2</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Mass per unit of stiffness</Name>
+        <FunctionObjective>{guid {6D401452-4011-4768-82CA-4FD0977F8143}}</FunctionObjective>
+        <Expression>[Density]/([Flexural modulus]^(1/3))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>false</LogAxis>
+        <Low>-3296.4523511806206</Low>
+        <High>21680.038341729309</High>
+      </xAxis>
+      <yAxis>
+        <Name>Cost per unit of stiffness</Name>
+        <FunctionObjective>{guid {C622BBE5-6E35-4955-A386-DFF203FBC297}}</FunctionObjective>
+        <Expression>[Price]*[Density]/([Flexural modulus]^(1/3))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>false</LogAxis>
+        <Low>-110873835.43587802</Low>
+        <High>1219619265.4970326</High>
+      </yAxis>
+      <Selections>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>-225.9</XPos>
+          <YPos>508500000</YPos>
+          <Slope>-5</Slope>
+          <XLog>false</XLog>
+          <YLog>false</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>553.135205157791</XPos>
+          <YPos>567071988.38749933</YPos>
+          <Slope>-5000</Slope>
+          <XLog>false</XLog>
+          <YLog>false</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+      </Selections>
+      <Labels />
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1614,543</Windowplacement>
+      <ZOrder>3</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Mass per unit of stiffness</Name>
+        <FunctionObjective>{guid {FE3B144D-656A-40A3-ACA9-349C92A3F5C1}}</FunctionObjective>
+        <Expression>[Density]/([Flexural modulus]^(1/2))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>false</LogAxis>
+        <Low>-14806.38638761601</Low>
+        <High>89346.250982702448</High>
+      </xAxis>
+      <yAxis>
+        <Name>Cost per unit of stiffness</Name>
+        <FunctionObjective>{guid {03C97D13-0153-4E22-85CC-794A92EF6AF6}}</FunctionObjective>
+        <Expression>[Price]*[Density]/([Flexural modulus]^(1/2))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>false</LogAxis>
+        <Low>-41221890.167142957</Low>
+        <High>453441015.40018785</High>
+      </yAxis>
+      <Selections>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>13859.477108801919</XPos>
+          <YPos>41585116.051176742</YPos>
+          <Slope>-5</Slope>
+          <XLog>false</XLog>
+          <YLog>false</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>12617.289690623806</XPos>
+          <YPos>40132361.5561185</YPos>
+          <Slope>-5000</Slope>
+          <XLog>false</XLog>
+          <YLog>false</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+      </Selections>
+      <Labels />
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1335,878</Windowplacement>
+      <ZOrder>7</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Mass per unit of stiffness</Name>
+        <FunctionObjective>{guid {6D401452-4011-4768-82CA-4FD0977F8143}}</FunctionObjective>
+        <Expression>[Density]/([Flexural modulus]^(1/3))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>117.26182336747236</Low>
+        <High>41953.398652347307</High>
+      </xAxis>
+      <yAxis>
+        <Name>Cost per unit of stiffness</Name>
+        <FunctionObjective>{guid {C622BBE5-6E35-4955-A386-DFF203FBC297}}</FunctionObjective>
+        <Expression>[Price]*[Density]/([Flexural modulus]^(1/3))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>139.04775480270149</Low>
+        <High>4701711120.2275219</High>
+      </yAxis>
+      <Selections>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>532.25623244972621</XPos>
+          <YPos>1642.8189656130332</YPos>
+          <Slope>-5</Slope>
+          <XLog>false</XLog>
+          <YLog>false</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>256.38232684174704</XPos>
+          <YPos>235232.37733672172</YPos>
+          <Slope>-5000</Slope>
+          <XLog>false</XLog>
+          <YLog>false</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+      </Selections>
+      <Labels>
+        <Label xsi:type="BubbleLabel">
+          <Text>Bisphenol molding compound</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>330.47001679705835</XPos>
+          <YPos>347.67835381240269</YPos>
+          <RecordGruid>9080</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>Beryllium, &#xD;
+Standard Grade</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>297.94391530456409</XPos>
+          <YPos>2154584.204317315</YPos>
+          <RecordGruid>8099</RecordGruid>
+        </Label>
+        <Label>
+          <Text>alpha=-5000&#xD;
+Space shuttle</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FFff0000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFe1e1ff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>700</Weight>
+          <XPos>195.83687736181415</XPos>
+          <YPos>16513468.34216704</YPos>
+        </Label>
+        <Label>
+          <Text>alpha=-5&#xD;
+Car passenger</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FFff0000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFe1e1ff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>140</PointSize>
+          <Italic>false</Italic>
+          <Weight>700</Weight>
+          <XPos>2807.5745945174126</XPos>
+          <YPos>405.05431654056667</YPos>
+        </Label>
+      </Labels>
+      <Curves>
+        <Curves>
+          <Points>
+            <Point>
+              <X>182.13616848614569</X>
+              <Y>7500743.3028023811</Y>
+            </Point>
+            <Point>
+              <X>180.25878609095722</X>
+              <Y>702914.20024715969</Y>
+            </Point>
+          </Points>
+          <LineStyle>
+            <Color>#FF808080</Color>
+            <Width>3</Width>
+            <DashStyle>Solid</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>LargeArrow</EndArrowStyle>
+          </LineStyle>
+          <Type>Arrow</Type>
+        </Curves>
+        <Curves>
+          <Points>
+            <Point>
+              <X>1770.4849613382985</X>
+              <Y>276.48669342358806</Y>
+            </Point>
+            <Point>
+              <X>844.03375833807479</X>
+              <Y>231.35702301486992</Y>
+            </Point>
+          </Points>
+          <LineStyle>
+            <Color>#FF808080</Color>
+            <Width>3</Width>
+            <DashStyle>Solid</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>LargeArrow</EndArrowStyle>
+          </LineStyle>
+          <Type>Arrow</Type>
+        </Curves>
+      </Curves>
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1029,543</Windowplacement>
+      <ZOrder>6</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Mass per unit of stiffness</Name>
+        <FunctionObjective>{guid {6D401452-4011-4768-82CA-4FD0977F8143}}</FunctionObjective>
+        <Expression>[Density]/([Flexural modulus]^(1/3))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>117.26182336747236</Low>
+        <High>41953.398652347307</High>
+      </xAxis>
+      <yAxis>
+        <Name>Cost per unit of stiffness</Name>
+        <FunctionObjective>{guid {C622BBE5-6E35-4955-A386-DFF203FBC297}}</FunctionObjective>
+        <Expression>[Price]*[Density]/([Flexural modulus]^(1/3))</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>139.04775480270149</Low>
+        <High>4701711120.2275219</High>
+      </yAxis>
+      <Selections />
+      <Labels />
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+  </Stages>
+</Project>

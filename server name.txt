@@ -1,0 +1,8 @@
+EduPack
+Aalto University has a floating licenses for GRANTA EduPack (formerly CES EduPack) which can be also used from staff and students personal workstations if they connect to Aalto network via Cisco AnyConnect VPN Client (see above). Download the media and exract it from the .zip file, then install by running the included edupack_setup.XXXX. When asked for "License server configuration", input these:
+
+Server (master):
+lic-edupack.aalto.fi
+
+Server port number:
+1700
