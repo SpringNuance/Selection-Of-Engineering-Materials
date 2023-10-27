@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+    <Component>
+      <Name>GRP</Name>
+      <MaterialGRUID />
+      <MaterialIdentity>-1</MaterialIdentity>
+      <ProcessName />
+      <SecondaryProcessName />
+      <EolName>None</EolName>
+      <Mass>2400</Mass>
+      <Length>0</Length>
+      <RemovedPercentage>0</RemovedPercentage>
+      <RecoveryRatio>100</RecoveryRatio>
+      <Quantity>1</Quantity>
+      <RecycledPercentage>0</RecycledPercentage>
+    </Component>
+  </Components>
+  <Transports>
+    <Transport>
+      <Name>Semi-truck EURO 3</Name>
+      <Type>Truck 16-32t, EURO 3</Type>
+      <Distance>2600</Distance>
+    </Transport>
+    <Transport>
+      <Type />
+      <Distance>0</Distance>
+    </Transport>
+  </Transports>
+  <Processes />
+  <UserRecords />
+  <CustomPrimaryProcesses />
+  <CustomSecondaryProcesses />
+  <CustomFinishingProcesses />
+  <DbName>Level 3</DbName>
+  <Name>Wind Turbine Blade</Name>
+  <IncludeCostAnalysis>false</IncludeCostAnalysis>
+  <Width>0</Width>
+  <Height>0</Height>
+  <Depth>0</Depth>
+  <CountryOfProduction>The Whole World</CountryOfProduction>
+  <CountryOfUse>Finland</CountryOfUse>
+  <FuelRate>Domestic</FuelRate>
+  <UseRecycleFraction>false</UseRecycleFraction>
+  <IsPowered>false</IsPowered>
+  <IsMobile>false</IsMobile>
+  <MobileTransportType>Diesel - ocean shipping</MobileTransportType>
+  <StaticFuelType>Electric to thermal</StaticFuelType>
+  <StaticUsageHoursPerDay>0</StaticUsageHoursPerDay>
+  <StaticUsageDaysPerYear>0</StaticUsageDaysPerYear>
+  <StaticPowerUnitSymbol>W</StaticPowerUnitSymbol>
+  <StaticPowerRating>0</StaticPowerRating>
+  <MobileDistanceKmPerDay>0</MobileDistanceKmPerDay>
+  <MobileUsageDaysPerYear>0</MobileUsageDaysPerYear>
+  <ProductLife>1</ProductLife>
+  <HeaderStates>
+    <ProductHeaderExpanded>true</ProductHeaderExpanded>
+    <MateriaHeaderExpanded>true</MateriaHeaderExpanded>
+    <TransportHeaderExpanded>true</TransportHeaderExpanded>
+    <UseHeaderExpanded>false</UseHeaderExpanded>
+    <ReportHeaderExpanded>true</ReportHeaderExpanded>
+  </HeaderStates>
+</Product>

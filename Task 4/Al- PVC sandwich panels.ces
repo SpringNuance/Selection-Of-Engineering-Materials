@@ -1,0 +1,1993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>6330b6e4-f574-4a9c-8b52-df74ba909bd7</ID>
+  <Version>7</Version>
+  <Name />
+  <Author>springnuance</Author>
+  <Company>606138</Company>
+  <Notes />
+  <Template />
+  <PassNA>false</PassNA>
+  <FailEstimatedRecords>false</FailEstimatedRecords>
+  <ResultType>0</ResultType>
+  <ResultStage>-1</ResultStage>
+  <RankByType>0</RankByType>
+  <RankByStage>-1</RankByStage>
+  <RankByProperty />
+  <IndexRankColumn>0</IndexRankColumn>
+  <RankOrder>1</RankOrder>
+  <Database>
+    <Path>C:\Program Files (x86)\Granta EduPack\2023 R1\Database\Sustainability Level 3\data.gdb</Path>
+    <Name>Level 3 Sustainability</Name>
+    <Unit>Metric</Unit>
+    <UnitType>Relative</UnitType>
+    <Currency>EUR</Currency>
+    <SelectionTable>MaterialUniverse</SelectionTable>
+    <Tables>
+      <Table>
+        <TableName>Legislation and Regulations</TableName>
+        <SubsetName>Legislation and Regulations</SubsetName>
+        <LayoutName>Legislation and Regulations</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Nations of the World</TableName>
+        <SubsetName>Nations</SubsetName>
+        <LayoutName>Nations of the World</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Battery Cells</TableName>
+        <SubsetName>All cells</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>X87f3954f-9442-432c-b819-bb0692e8b865</Id>
+            <Name>Alkaline Manganese</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xaa6770e4-960d-43d6-a08a-5b434eaaa3db</Id>
+            <Name>Lead Acid</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X71cc339c-03d0-4833-9bd4-94563b835e90</Id>
+            <Name>Lithium Manganese Dioxide</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X7b3570d6-1869-4d0f-99c9-21b84f9c36be</Id>
+            <Name>Lithium-ion (LCO)</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X5231272c-727f-41e4-8eaf-60c0a77e8be4</Id>
+            <Name>Lithium-ion (LFP)</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X182e829d-0095-4ce0-834b-bc0cb4352977</Id>
+            <Name>Lithium-ion (NCA)</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1e9edf3e-4f9a-443f-96a0-89bd8c8055d5</Id>
+            <Name>Lithium-ion (NMC)</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X3397ccb7-0b63-4061-a728-3f9aa97f2f9f</Id>
+            <Name>Mercuric Oxide Zinc</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xedd07867-d8b6-4adc-971b-989be89fff60</Id>
+            <Name>Nickel Cadmium</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X570acc26-f0d0-4579-bc55-58ba8248679f</Id>
+            <Name>Nickel Metal Hydride</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xf81cce89-4f05-4251-b0f7-6e91be341714</Id>
+            <Name>Silver Oxide</Name>
+            <Color>8</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xe7ffc9c0-2217-4466-adae-a15c83da6795</Id>
+            <Name>Zinc Air</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xc146b53d-9fa1-4032-94b4-7b7b1dacf288</Id>
+            <Name>Zinc Chloride</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MaterialUniverse</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>All materials</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>X03049d73-0df0-4806-afcd-85a3fc565bdd</Id>
+            <Name>Glass ceramics</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>52</Id>
+            <Name>Glasses</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X694b6834-5f2a-410c-9eac-9e3b6e287325</Id>
+            <Name>Non-technical ceramics</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>232</Id>
+            <Name>Technical ceramics</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>13535</Id>
+            <Name>Fibers and particulates</Name>
+            <Color>13</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7005</Id>
+            <Name>Natural fibers</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>4329</Id>
+            <Name>Composites</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7014</Id>
+            <Name>Foams</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X87ef5279-c41c-4350-8dfc-a6da75c5476d</Id>
+            <Name>Honeycombs</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7004</Id>
+            <Name>Natural materials</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1bd95d43-1ad5-4cf6-a869-3c1000c5d970</Id>
+            <Name>Mineralized tissue</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xabc6ca67-59a4-43b8-b61b-2c43088561d6</Id>
+            <Name>Soft tissue</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb6f06cd4-69ce-4455-bf07-f7c4490c523b</Id>
+            <Name>PCB laminates</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb9792dea-662a-4b27-a3f3-280d2045f462</Id>
+            <Name>Gases</Name>
+            <Color>14</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xa87eb136-4fd4-4b4b-b16c-5e4031d8dc6c</Id>
+            <Name>Liquids</Name>
+            <Color>14</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xecd7c10f-4f78-45d5-ad54-6a6429f1029e</Id>
+            <Name>Magnetic materials</Name>
+            <Color>15</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>1590</Id>
+            <Name>Metals and alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X03cc6bbd-b370-40bc-b95c-df31e10aaa72</Id>
+            <Name>Elastomers</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xa49e66e3-edbf-4b30-a54c-02c8c62f811b</Id>
+            <Name>Plastics</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords>
+          <Record>
+            <TreeName>My records</TreeName>
+            <Notes />
+            <FullName>My records</FullName>
+            <GRUID>Xea708edf-2903-444e-90ec-ffdd5f2172f7</GRUID>
+            <Color>14</Color>
+            <IsVirtual>false</IsVirtual>
+            <Properties />
+            <ChildRecords>
+              <Record>
+                <TreeName>Synthesized</TreeName>
+                <Notes />
+                <FullName>Synthesized</FullName>
+                <GRUID>X91e1f318-cb35-4998-a8fe-f8d0555eb280</GRUID>
+                <Color>14</Color>
+                <IsVirtual>true</IsVirtual>
+                <Properties />
+                <ChildRecords>
+                  <Record>
+                    <TreeName>Sandwich panel - Balanced</TreeName>
+                    <Notes />
+                    <FullName>Sandwich panel - Balanced</FullName>
+                    <GRUID>X1d3295b2-c955-4f77-963c-e0f917ef627f</GRUID>
+                    <Color>14</Color>
+                    <IsVirtual>true</IsVirtual>
+                    <Properties />
+                    <ChildRecords>
+                      <Record>
+                        <TreeName>Simply supported, Central load</TreeName>
+                        <Notes />
+                        <FullName>Simply supported, Central load</FullName>
+                        <GRUID>Xfbcc0549-1fde-461f-b4fc-217eca8cb610</GRUID>
+                        <Color>14</Color>
+                        <IsVirtual>true</IsVirtual>
+                        <Properties />
+                        <ChildRecords>
+                          <Record>
+                            <TreeName>3m span</TreeName>
+                            <Notes />
+                            <FullName>3m span</FullName>
+                            <GRUID>X3890de13-b7f1-45ed-92ea-d32302ebffef</GRUID>
+                            <Color>14</Color>
+                            <IsVirtual>true</IsVirtual>
+                            <Properties />
+                            <ChildRecords>
+                              <Record>
+                                <TreeName>Aluminum 6061 T4 face-sheet</TreeName>
+                                <Notes />
+                                <FullName>Aluminum 6061 T4 face-sheet</FullName>
+                                <GRUID>X9b27a51f-a32a-4802-aeaf-3be702778d1f</GRUID>
+                                <Color>14</Color>
+                                <IsVirtual>true</IsVirtual>
+                                <Properties />
+                                <ChildRecords>
+                                  <Record>
+                                    <TreeName>PVC cross-linked foam KR 0.09 core</TreeName>
+                                    <Notes />
+                                    <FullName>PVC cross-linked foam KR 0.09 core</FullName>
+                                    <GRUID>X15cc554f-e190-406b-8fd5-f86a45a67876</GRUID>
+                                    <Color>14</Color>
+                                    <IsVirtual>true</IsVirtual>
+                                    <Properties />
+                                    <ChildRecords>
+                                      <Record>
+                                        <TreeName>10mm core</TreeName>
+                                        <Notes />
+                                        <FullName>10mm core</FullName>
+                                        <GRUID>X22112300-de91-48c3-8aeb-8f62465059b2</GRUID>
+                                        <Color>14</Color>
+                                        <IsVirtual>true</IsVirtual>
+                                        <Properties />
+                                        <ChildRecords>
+                                          <Record>
+                                            <TreeName>0,1mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,1 mm&#xD;
+  Core thickness = 10 mm&#xD;
+  Material thickness = 10,2 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,07666 - 0,08664 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,1mm Aluminum 6061 T4 face-sheets / 10mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X4e68a995-9e23-459e-a4de-a3008b814268</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>1.38408375</Low>
+                                                <High>1.45121026</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>3.9098258</Low>
+                                                <High>4.10934258</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 0,13 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>2.27365685</Low>
+                                                <High>3.02243</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>6.6008935</Low>
+                                                <High>7.962736</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>115.965446</Low>
+                                                <High>131.4453</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>7.91431236</Low>
+                                                <High>8.962187</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>137.49025</Low>
+                                                <High>145.3725</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>10.6071186</Low>
+                                                <High>12.1166115</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>0,548mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,548 mm&#xD;
+  Core thickness = 10 mm&#xD;
+  Material thickness = 11,1 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,08338 - 0,09424 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,548mm Aluminum 6061 T4 face-sheets / 10mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>Xe4fd53c7-12b7-4be1-8746-5ce0a045aa14</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>6.65042973</Low>
+                                                <High>6.98634</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>17.7944336</Low>
+                                                <High>18.6969833</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 0,64 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>10.9334621</Low>
+                                                <High>14.5388536</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>22.6265526</Low>
+                                                <High>29.19969</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>159.762421</Low>
+                                                <High>177.45929</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>11.2306509</Low>
+                                                <High>12.4681044</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>344.9744</Low>
+                                                <High>353.1958</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>5.925751</Low>
+                                                <High>6.91260862</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>3mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 3 mm&#xD;
+  Core thickness = 10 mm&#xD;
+  Material thickness = 16 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,1202 - 0,1358 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>3mm Aluminum 6061 T4 face-sheets / 10mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X33781b6a-347f-4139-93d6-b3a5375ec111</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>25.0249939</Low>
+                                                <High>26.300005</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>49.0971336</Low>
+                                                <High>51.54232</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 2,56 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>41.1487923</Low>
+                                                <High>54.7218971</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>67.9785</Low>
+                                                <High>89.3066559</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>179.7673</Low>
+                                                <High>198.775467</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>12.7466249</Low>
+                                                <High>14.0905781</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>1065.71948</Low>
+                                                <High>1081.53076</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>3.62484622</Low>
+                                                <High>4.675781</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                        </ChildRecords>
+                                      </Record>
+                                      <Record>
+                                        <TreeName>15mm core</TreeName>
+                                        <Notes />
+                                        <FullName>15mm core</FullName>
+                                        <GRUID>X4526cf21-34df-4706-8b80-26f077c6101e</GRUID>
+                                        <Color>14</Color>
+                                        <IsVirtual>true</IsVirtual>
+                                        <Properties />
+                                        <ChildRecords>
+                                          <Record>
+                                            <TreeName>0,1mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,1 mm&#xD;
+  Core thickness = 15 mm&#xD;
+  Material thickness = 15,2 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,07616 - 0,08607 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,1mm Aluminum 6061 T4 face-sheets / 15mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X571d3ed4-23a1-4370-8435-bc722918d3f3</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>0.9549175</Low>
+                                                <High>1.00034559</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>2.66422367</Low>
+                                                <High>2.800236</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 0,20 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>1.56807971</Low>
+                                                <High>2.084185</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>5.23520231</Low>
+                                                <High>6.15438366</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>105.97953</Low>
+                                                <High>120.920486</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>7.15854073</Low>
+                                                <High>8.159746</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>120.557037</Low>
+                                                <High>128.4693</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>11.6325445</Low>
+                                                <High>13.353138</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>0,548mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,548 mm&#xD;
+  Core thickness = 15 mm&#xD;
+  Material thickness = 16,1 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,08064 - 0,09114 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,548mm Aluminum 6061 T4 face-sheets / 15mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X6a6ed206-aeab-4386-8765-f61634ff9dce</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>4.609383</Low>
+                                                <High>4.84101439</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>12.6383715</Low>
+                                                <High>13.2772017</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 0,99 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>7.577165</Low>
+                                                <High>10.075367</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>16.575779</Low>
+                                                <High>21.1805687</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>150.837448</Low>
+                                                <High>168.049347</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>10.5545912</Low>
+                                                <High>11.7514973</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>264.635284</Low>
+                                                <High>272.5725</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>6.91488838</Low>
+                                                <High>7.939047</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>3mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 3 mm&#xD;
+  Core thickness = 15 mm&#xD;
+  Material thickness = 21 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,1052 - 0,1189 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>3mm Aluminum 6061 T4 face-sheets / 15mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>Xbc3a25f9-48ca-4448-b744-20e1c4de8765</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>19.0857048</Low>
+                                                <High>20.0571518</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>40.625946</Low>
+                                                <High>42.6214142</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 4,17 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>31.3821526</Low>
+                                                <High>41.73334</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>55.1147652</Low>
+                                                <High>72.25768</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>177.088577</Low>
+                                                <High>195.897354</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>12.5435753</Low>
+                                                <High>13.8715849</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>833.039856</Low>
+                                                <High>845.8174</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>3.93945742</Low>
+                                                <High>4.971021</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                        </ChildRecords>
+                                      </Record>
+                                      <Record>
+                                        <TreeName>22,4mm core</TreeName>
+                                        <Notes />
+                                        <FullName>22,4mm core</FullName>
+                                        <GRUID>X4efc101b-ce73-41ef-b239-b0656eebe02d</GRUID>
+                                        <Color>14</Color>
+                                        <IsVirtual>true</IsVirtual>
+                                        <Properties />
+                                        <ChildRecords>
+                                          <Record>
+                                            <TreeName>0,1mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,1 mm&#xD;
+  Core thickness = 22,4 mm&#xD;
+  Material thickness = 22,6 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,07583 - 0,0857 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,1mm Aluminum 6061 T4 face-sheets / 22,4mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>Xa7c67d4c-e2ca-496f-bcff-ff8075c93bd4</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>0.668158948</Low>
+                                                <High>0.699274659</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>1.8229661</Low>
+                                                <High>1.9161576</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 0,30 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>1.0967499</Low>
+                                                <High>1.45749938</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>4.317405</Low>
+                                                <High>4.94043827</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>97.66517</Low>
+                                                <High>112.117355</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>6.52936172</Low>
+                                                <High>7.488453</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>109.243843</Low>
+                                                <High>117.180946</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>12.4802427</Low>
+                                                <High>14.3944216</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>0,548mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,548 mm&#xD;
+  Core thickness = 22,4 mm&#xD;
+  Material thickness = 23,5 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,07883 - 0,08909 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,548mm Aluminum 6061 T4 face-sheets / 22,4mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X026a63dd-f34e-414f-acbd-d157fec300a3</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>3.182816</Low>
+                                                <High>3.3415966</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>8.82683849</Low>
+                                                <High>9.270804</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 1,51 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>5.23133945</Low>
+                                                <High>6.955704</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>12.2263441</Low>
+                                                <High>15.4164743</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>140.565948</Low>
+                                                <High>157.26059</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>9.77671051</Low>
+                                                <High>10.9296408</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>208.427231</Low>
+                                                <High>216.278961</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>8.027048</Low>
+                                                <High>9.14366</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>3mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 3 mm&#xD;
+  Core thickness = 22,4 mm&#xD;
+  Material thickness = 28,4 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,09526 - 0,1077 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>3mm Aluminum 6061 T4 face-sheets / 22,4mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X78d5b1b2-08b1-47f2-be31-ae75023dc638</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>14.1335068</Low>
+                                                <High>14.8518448</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>31.7640381</Low>
+                                                <High>33.2964325</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 6,58 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>23.2387</Low>
+                                                <High>30.9034481</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>43.0776634</Low>
+                                                <High>56.3043251</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>173.359909</Low>
+                                                <High>191.904984</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>12.2609682</Low>
+                                                <High>13.5677691</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>638.8817</Low>
+                                                <High>649.4282</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>4.37416649</Low>
+                                                <High>5.38387775</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                        </ChildRecords>
+                                      </Record>
+                                      <Record>
+                                        <TreeName>33,4mm core</TreeName>
+                                        <Notes />
+                                        <FullName>33,4mm core</FullName>
+                                        <GRUID>X3b384a13-6cf3-4e61-8e8c-6ca81a3da3e0</GRUID>
+                                        <Color>14</Color>
+                                        <IsVirtual>true</IsVirtual>
+                                        <Properties />
+                                        <ChildRecords>
+                                          <Record>
+                                            <TreeName>0,1mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,1 mm&#xD;
+  Core thickness = 33,4 mm&#xD;
+  Material thickness = 33,6 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,07561 - 0,08545 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,1mm Aluminum 6061 T4 face-sheets / 33,4mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X7b091c70-4350-4f00-b430-da3e1818b4a3</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>0.4751992</Low>
+                                                <High>0.496943653</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>1.25295568</Low>
+                                                <High>1.31722891</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 0,46 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>0.7797618</Low>
+                                                <High>1.03611827</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>3.697137</Low>
+                                                <High>4.121976</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>91.08806</Low>
+                                                <High>105.121567</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>6.031695</Low>
+                                                <High>6.95491028</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>101.635132</Low>
+                                                <High>109.591072</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>13.1477718</Low>
+                                                <High>15.2255182</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>0,548mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,548 mm&#xD;
+  Core thickness = 33,4 mm&#xD;
+  Material thickness = 34,5 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,07762 - 0,08773 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,548mm Aluminum 6061 T4 face-sheets / 33,4mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X6ba2d433-78e9-4037-978d-4d4bbcccc921</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>2.19332147</Low>
+                                                <High>2.30162287</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>6.080273</Low>
+                                                <High>6.383955</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 2,28 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>3.604261</Low>
+                                                <High>4.79190969</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>9.15129852</Low>
+                                                <High>11.3416195</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>129.519211</Low>
+                                                <High>145.676331</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>8.940306</Low>
+                                                <High>10.0469208</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>169.41275</Low>
+                                                <High>177.262131</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>9.197516</Low>
+                                                <High>10.46466</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>3mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 3 mm&#xD;
+  Core thickness = 33,4 mm&#xD;
+  Material thickness = 39,4 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,08864 - 0,1002 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>3mm Aluminum 6061 T4 face-sheets / 33,4mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>Xce0dfc65-87ce-471b-9688-c23910a7ed07</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>10.2099266</Low>
+                                                <High>10.7277384</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>23.4898663</Low>
+                                                <High>24.6013241</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 10,06 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>16.7867241</Low>
+                                                <High>22.3230362</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>32.6941338</Low>
+                                                <High>42.54258</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>168.283112</Low>
+                                                <High>186.492508</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>11.8762388</Low>
+                                                <High>13.1558142</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>484.8838</Low>
+                                                <High>493.999542</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>4.959777</Low>
+                                                <High>5.950074</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                        </ChildRecords>
+                                      </Record>
+                                      <Record>
+                                        <TreeName>50mm core</TreeName>
+                                        <Notes />
+                                        <FullName>50mm core</FullName>
+                                        <GRUID>X765a1d17-c93e-4056-9124-884f4d094e0e</GRUID>
+                                        <Color>14</Color>
+                                        <IsVirtual>true</IsVirtual>
+                                        <Properties />
+                                        <ChildRecords>
+                                          <Record>
+                                            <TreeName>0,1mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,1 mm&#xD;
+  Core thickness = 50 mm&#xD;
+  Material thickness = 50,2 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,07546 - 0,08528 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,1mm Aluminum 6061 T4 face-sheets / 50mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>Xf6e7f9b2-bf67-4da3-843e-692e6ee9a269</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>0.343935</Low>
+                                                <High>0.359650642</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>0.863536537</Low>
+                                                <High>0.9081855</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 0,71 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>0.5643536</Low>
+                                                <High>0.7498845</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>3.273479</Low>
+                                                <High>3.56577778</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>86.0616</Low>
+                                                <High>99.75343</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>5.65138674</Low>
+                                                <High>6.54546452</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>96.46535</Low>
+                                                <High>104.435066</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>13.6564217</Low>
+                                                <High>15.8650475</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>0,548mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 0,548 mm&#xD;
+  Core thickness = 50 mm&#xD;
+  Material thickness = 51,1 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,0768 - 0,0868 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>0,548mm Aluminum 6061 T4 face-sheets / 50mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X8aa82514-9eec-4512-9d7b-d58a4906a64b</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>1.50663257</Low>
+                                                <High>1.57998085</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>4.12393</Low>
+                                                <High>4.327894</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 3,43 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>2.4751513</Low>
+                                                <High>3.29037833</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>6.98918533</Low>
+                                                <High>8.477067</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>118.396065</Low>
+                                                <High>134.000916</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>8.098289</Low>
+                                                <High>9.157008</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>142.325241</Low>
+                                                <High>150.200531</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>10.3560381</Low>
+                                                <High>11.81805</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                          <Record>
+                                            <TreeName>3mm Aluminum 6061 T4 face-sheets</TreeName>
+                                            <Notes>Source records&#xD;
+  Face-sheet = Aluminum, 6061, T4&#xD;
+  Core = PVC cross-linked foam (rigid, closed cell, KR 0.090)&#xD;
+&#xD;
+Parameters&#xD;
+  Span = 3 m&#xD;
+  Support and load conditions = Simply supported&#xD; - Central load&#xD;
+Additional attributes&#xD;
+  Face-sheet thickness = 3 mm&#xD;
+  Core thickness = 50 mm&#xD;
+  Material thickness = 56 mm&#xD;
+  Through thickness yield strength = 1,62 - 1,74 MPa&#xD;
+  Through thickness modulus = 0,08416 - 0,09512 GPa&#xD;
+&#xD;
+Model: Sandwich Panels, Balanced&#xD;
+Date of analysis: Wednesday, 4 October 2023</Notes>
+                                            <FullName>3mm Aluminum 6061 T4 face-sheets / 50mm PVC cross-linked foam KR 0.09 core (Simply supported, Central load, 3m span)</FullName>
+                                            <GRUID>X749c50be-72f9-46d0-9789-6eb4d2924396</GRUID>
+                                            <Color>16</Color>
+                                            <IsVirtual>true</IsVirtual>
+                                            <Properties>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Young's modulus</Name>
+                                                <Low>7.20710754</Low>
+                                                <High>7.57146358</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural modulus</Name>
+                                                <Low>16.4035416</Low>
+                                                <High>17.16996</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural modulus_Notes</Name>
+                                                <Value>Contribution due to core shear = 14,94 %</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Yield strength (elastic limit)</Name>
+                                                <Low>11.8488655</Low>
+                                                <High>15.756237</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Yield strength (elastic limit)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)</Name>
+                                                <Low>24.2416878</Low>
+                                                <High>31.3402634</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>Flexural strength (modulus of rupture)_Notes</Name>
+                                                <Value>Expected failure mode = face-sheet yield</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Embodied energy, primary production (virgin grade)</Name>
+                                                <Low>161.5222</Low>
+                                                <High>179.320374</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)</Name>
+                                                <Low>11.3639717</Low>
+                                                <High>12.609808</High>
+                                              </Data>
+                                              <Data xsi:type="TextDataMemento">
+                                                <Name>CO2 footprint, primary production (virgin grade)_Notes</Name>
+                                                <Value>Only includes contribution from specified material components (does not include processing, adhesives or additives)</Value>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Density</Name>
+                                                <Low>366.8708</Low>
+                                                <High>375.2007</High>
+                                              </Data>
+                                              <Data xsi:type="RangeDataMemento">
+                                                <Name>Price</Name>
+                                                <Low>5.728003</Low>
+                                                <High>6.71246433</High>
+                                              </Data>
+                                            </Properties>
+                                            <ChildRecords />
+                                          </Record>
+                                        </ChildRecords>
+                                      </Record>
+                                    </ChildRecords>
+                                  </Record>
+                                </ChildRecords>
+                              </Record>
+                            </ChildRecords>
+                          </Record>
+                        </ChildRecords>
+                      </Record>
+                    </ChildRecords>
+                  </Record>
+                </ChildRecords>
+              </Record>
+            </ChildRecords>
+          </Record>
+        </UserRecords>
+      </Table>
+      <Table>
+        <TableName>ProcessUniverse</TableName>
+        <SubsetName>All processes</SubsetName>
+        <LayoutName>All Processes</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Producers</TableName>
+        <SubsetName>Producers</SubsetName>
+        <LayoutName>Producers</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Reference</TableName>
+        <SubsetName>All references</SubsetName>
+        <LayoutName>All References</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Shape</TableName>
+        <SubsetName>Shape class</SubsetName>
+        <LayoutName>Shape class</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Structural Sections</TableName>
+        <SubsetName>All structural sections</SubsetName>
+        <LayoutName>All structural sections</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Power systems - Generation</TableName>
+        <SubsetName>All systems</SubsetName>
+        <LayoutName>All attributes</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Power systems - Storage</TableName>
+        <SubsetName>All systems</SubsetName>
+        <LayoutName>All attributes</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Elements</TableName>
+        <SubsetName>Elements</SubsetName>
+        <LayoutName>Elements</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+    </Tables>
+    <ParameterValues>
+      <ParameterValue>
+        <Name>Temperature</Name>
+        <Value>23</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress Ratio</Name>
+        <Value>-1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Number of Cycles</Name>
+        <Value>10000000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Length</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Load Factor</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Capital Write-off Time</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Overhead Rate</Name>
+        <Value>149.98849487304688</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Batch Size</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Mass</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Material Cost</Name>
+        <Value>7.9993867874145508</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Neutron Fluence</Name>
+        <Value>0</Value>
+        <NamedValue>zero</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Dose</Name>
+        <Value>0</Value>
+        <NamedValue>Zero</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Discount Rate</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain</Name>
+        <Value>0.10000000149011612</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Magnetic field intensity</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Flux density, B</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Frequency</Name>
+        <Value>400</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Frequency (high)</Name>
+        <Value>10</Value>
+      </ParameterValue>
+    </ParameterValues>
+  </Database>
+  <Stages>
+    <Stage xsi:type="TreeStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-9,-38,64,64,1111,654</Windowplacement>
+      <ZOrder>1</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <Expression>[MaterialUniverse:\My records\Synthesized\Sandwich panel - Balanced]&#xD;
+[MaterialUniverse:\Metals and alloys]&#xD;
+[MaterialUniverse:\Hybrids: composites, foams, honeycombs, natural materials\Foams\Polymer foams, rigid]</Expression>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1335,878</Windowplacement>
+      <ZOrder>2</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Density (kg/m^3)</Name>
+        <FunctionObjective />
+        <Expression>[Density]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>1.8804826295728085</Low>
+        <High>108163.73217582611</High>
+      </xAxis>
+      <yAxis>
+        <Name>Flexural modulus (GPa)</Name>
+        <FunctionObjective />
+        <Expression>[Flexural modulus]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>6.8844910302173177E-07</Low>
+        <High>8379.76915764675</High>
+      </yAxis>
+      <Selections>
+        <Selection xsi:type="LineSelectionMemento">
+          <Enabled>false</Enabled>
+          <XPos>36.269082703631547</XPos>
+          <YPos>0.085207823593859214</YPos>
+          <Slope>3</Slope>
+          <XLog>true</XLog>
+          <YLog>true</YLog>
+          <MaximizeIndex>true</MaximizeIndex>
+          <LineStyle>
+            <Color>#FF000000</Color>
+            <Width>2</Width>
+            <DashStyle>Dash</DashStyle>
+            <StartArrowStyle>Flat</StartArrowStyle>
+            <EndArrowStyle>Flat</EndArrowStyle>
+          </LineStyle>
+        </Selection>
+      </Selections>
+      <Labels />
+      <Curves />
+      <ShowEnvelopes>true</ShowEnvelopes>
+    </Stage>
+  </Stages>
+</Project>
